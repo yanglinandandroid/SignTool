@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<DeviceTypeConfig>
+  <DeviceType Name="600" Link="\DownLoad\600签名工具\"/>
+  <DeviceType Name="601" Link="\DownLoad\601签名工具\"/>
+  <DeviceType Name="小黄" Link="\DownLoad\小黄签名工具\"/>
+  <DeviceType Name="手机" Link="\DownLoad\600签名工具\"/>
+</DeviceTypeConfig>

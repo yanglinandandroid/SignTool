@@ -1,0 +1,17 @@
+Create by LKZ 2015-03-18
+
+1.此签名工具仅用于上海鸣志“小神探”巡线客户端APK签名。
+2.签名过程：
+         1>将未进行签名的moons-xst-app-track.apk文件放置到该目录；（注意APK名称必须是moons-xst-app-track.apk）
+         2>执行本目录下Sign.bat批处理，显示“Signing Complete”即已完成签名；
+         3>签名完成后，在本目录会自动生成签名后的APK文件，名称为：moons-xst-app-track_signed.apk。
+3.注意：
+         1>此签名工具所有签名证书（私钥、公钥）由厂商提供，不能随意替换成其他证书。
+         2>如果在PDA上安装了未经过签名的moons-xst-app-track.apk将无法直接安装或升级成经过签名的moons-xst-app-track_signed.apk，
+     必须卸载未签名的apk,在自行安装签名的apk。（相反在签名的apk后安装升级未签名的apk也是同样道理）
+4.要求：
+         1>正式发布的moons-xst-app-track.apk必须进行签名后才能发布；
+         2>发布给客户之前必须进行验证是否已经进行过签名。（验证方法看第5条）
+5.验证APK是否经过了签名：
+         1>将需要验证的APK（moons-xst-app-track_signed.apk）文件放置到该目录；（被验证的APK名称必须是moons-xst-app-track_signed.apk）
+         2>执行本目录下CheckSignYN.bat批处理文件，显示“jar 已验证”即证明已进行过签名。

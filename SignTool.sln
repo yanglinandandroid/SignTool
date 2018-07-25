@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignTool", "SignTool\SignTool.csproj", "{E127CE03-BD09-41E4-BBC6-217C64CC0EAC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Android签名工具", "Android签名工具\Android签名工具.vdproj", "{C49570DF-2CB8-4C36-9F87-7237F4747A59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E127CE03-BD09-41E4-BBC6-217C64CC0EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E127CE03-BD09-41E4-BBC6-217C64CC0EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E127CE03-BD09-41E4-BBC6-217C64CC0EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E127CE03-BD09-41E4-BBC6-217C64CC0EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C49570DF-2CB8-4C36-9F87-7237F4747A59}.Debug|Any CPU.ActiveCfg = Debug
+		{C49570DF-2CB8-4C36-9F87-7237F4747A59}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1157F3C5-E3EE-4FD6-97D3-12FEBDA43378}
+	EndGlobalSection
+EndGlobal
